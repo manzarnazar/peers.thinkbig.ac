@@ -175,7 +175,7 @@
   "use strict";
   $(document).ready(function(){
     // Chart Global Color
-    Chart.defaults.color = "#5b2ff9";
+    Chart.defaults.color = "##9bba3a";
     Chart.defaults.borderColor = "#fafaff";
     
     
