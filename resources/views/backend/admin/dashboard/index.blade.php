@@ -203,7 +203,7 @@
                           <?php echo DB::table('users')->whereDate('created_at', '>=', $year.'-12-01')->whereDate('created_at', '<=', $year.'-12-'.date('t', strtotime($year.'-12-01')))->count(); ?>,
 
                         ],
-                      backgroundColor: "#5A2FF9"
+                      backgroundColor: "#BADA55"
                   }
               ]
               },
