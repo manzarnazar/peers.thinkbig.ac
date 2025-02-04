@@ -39,7 +39,7 @@
                 <div class="color-plate">
                     <a href="javascript:void(0)" class="color-circle" onclick="selectColor('f00')"></a>
                     <a href="javascript:void(0)" class="color-circle" onclick="selectColor('5a2ff9')"></a>
-                    <a href="javascript:void(0)" class="color-circle" onclick="selectColor('ff7856')"></a>
+                    <a href="javascript:void(0)" class="color-circle" onclick="selectColor('BADA55')"></a>
                     <a href="javascript:void(0)" class="color-circle" onclick="selectColor('f92fd7')"></a>
                     <a href="javascript:void(0)" class="color-circle" onclick="selectColor('2f94f9')"></a>
                     <a href="javascript:void(0)" class="color-circle" onclick="selectColor('000000')"></a>

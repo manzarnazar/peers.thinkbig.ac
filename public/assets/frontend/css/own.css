@@ -27,8 +27,8 @@ a.story-entry video {
     color: #fff;
 }
 
-.input-prev-text.bg-ff7856 {
-    background-color: #ff7856;
+.input-prev-text.bg-BADA55 {
+    background-color: #BADA55;
     color: #fff;
 }
 
@@ -1060,10 +1060,10 @@ select.form-control {
     font-size: 18px;
 }
 .login-btns a.active, .login-btns a:hover, .login-btns a:focus{
-    background: #ff7856 !important;
+    background: #BADA55 !important;
     padding: 10px 32px;
     color: #fff !important;
-    border: 1px solid #ff7856 !important;
+    border: 1px solid #BADA55 !important;
     font-size: 18px;
 }
 
@@ -1215,10 +1215,10 @@ select.form-control {
 
 @media all and (max-width:991px){
     .login-btns a{
-        background: #ff7856;
+        background: #BADA55;
         padding: 8px 15px !important;
         color: #fff;
-        border: 1px solid #ff7856;
+        border: 1px solid #BADA55;
         font-size: 18px;
         margin-left: 12px;
     }

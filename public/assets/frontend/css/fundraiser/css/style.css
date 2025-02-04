@@ -13169,7 +13169,7 @@ section.create-story-sec {
 }
 
 .color-plate a:nth-child(3) {
-    background-color: #ff7856
+    background-color: #BADA55
 }
 
 .color-plate a:nth-child(4) {
@@ -15125,10 +15125,10 @@ a.story-entry .ct-story .video-meta .video-avatar p {
 }
 
 .login-btns a {
-    background: #ff7856;
+    background: #BADA55;
     padding: 10px 32px;
     color: #fff;
-    border: 1px solid #ff7856;
+    border: 1px solid #BADA55;
     font-size: 18px
 }
 
@@ -15143,9 +15143,9 @@ a.story-entry .ct-story .video-meta .video-avatar p {
 }
 
 .login-btns a:last-child:hover {
-    background-color: #ff7856;
+    background-color: #BADA55;
     color: #fff;
-    border: 1px solid #ff7856
+    border: 1px solid #BADA55
 }
 
 .btn-inline .btn img {

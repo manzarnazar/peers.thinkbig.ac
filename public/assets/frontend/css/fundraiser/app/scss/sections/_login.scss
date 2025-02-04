@@ -5,10 +5,10 @@
 }
 
 .login-btns a {
-    background: #FF7856;
+    background: #BADA55;
     padding   : 10px 32px;
     color     : #fff;
-    border    : 1px solid #FF7856;
+    border    : 1px solid #BADA55;
     font-size : 18px;
 
     &:hover {
@@ -22,9 +22,9 @@
     margin-left: 10px;
 
     &:hover {
-        background-color: #FF7856;
+        background-color: #BADA55;
         color           : $white;
-        border          : 1px solid #FF7856;
+        border          : 1px solid #BADA55;
     }
 }
 
