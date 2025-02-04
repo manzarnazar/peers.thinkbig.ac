@@ -10,7 +10,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                serif: ['Fraunces', 'serif'],
+                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
         },
     },
