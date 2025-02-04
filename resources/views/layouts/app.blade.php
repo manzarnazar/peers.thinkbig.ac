@@ -15,7 +15,9 @@
         
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
     </head>
     <body class="font-Fraunces">
         <div class="min-h-screen bg-gray-100">
