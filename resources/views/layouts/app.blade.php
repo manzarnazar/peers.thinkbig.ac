@@ -21,6 +21,8 @@
 
     </head>
     <body class="font-Fraunces">
+        <p style="font-weight: 400;">This is a normal weight text.</p>
+<p style="font-weight: 700;">This is a bold weight text.</p>
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
