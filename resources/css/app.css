@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 
-body {
+html, body {
     font-family: 'Fraunces', serif !important;
 }
-.font-Fraunces {
-    font-family: 'Fraunces', serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', serif !important;
+}
+
+p, div {
+    font-family: 'Fraunces', serif !important;
+}
+* {
+    font-family: 'Fraunces', serif !important;
 }
