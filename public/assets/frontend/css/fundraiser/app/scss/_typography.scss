@@ -21,9 +21,21 @@
     font-family: segoe-ui-bold;
     src        : url('../fonts/Segoe-UI-Bold.ttf');
 }
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/fraunces/v10/Fraunces-VariableFont_SOFT,WONK.ttf') format('truetype');
+}
+
+
+
 
 body {
-    font-family            : segoe-ui-regular;
+    // font-family            : segoe-ui-regular;
+    font-family: 'Fraunces', serif;
+
     color                  : $secondary;
     font-weight            : 400;
     font-size              : 14px;

@@ -322,7 +322,11 @@ a.story-entry video {
     background-color: #fff;
     margin: 0px;
     color: #000;
-    font-family: 'segoe-ui-bold';
+    /* font-family: 'segoe-ui-bold'; */
+    font-family: 'Fraunces', serif;
+    font-weight: 700; /* Adjust weight as needed (100 - 900) */
+    
+
     padding: 25px 24px;
 }
 
