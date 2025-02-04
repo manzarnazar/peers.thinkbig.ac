@@ -1053,7 +1053,7 @@ select.form-control {
 
 
 .login-btns a{
-    background: #FFFFFF !important;
+    /* background: #FFFFFF !important; */
     padding: 10px 32px;
     color: #FFF !important;
     border: 1px solid #ffffff !important;
