@@ -84,7 +84,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Fraunces', serif;
+            font-family: 'Fraunces', serif !important;
         }
     </style>
 
@@ -113,7 +113,7 @@
 <body class="{{$themeColor}} {{$theme_color}}">
     @php $user_info = Auth()->user() @endphp
 
-    @include('frontend.header')
+    {{-- @include('frontend.header') --}}
 
     <!-- Main Start -->
     <main class="main my-4 mt-12">
