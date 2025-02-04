@@ -2,29 +2,17 @@
 1.2 FONTS FOR THEME
 ========================================*/
 // FONT
+/* ======================================
+1.2 FONTS FOR THEME
+========================================*/
+/* FONT */
 @font-face {
-    font-family: segoe-ui-regular;
-    src        : url('../fonts/Segoe-UI-Regular.ttf');
-}
-
-@font-face {
-    font-family: segoe-ui-medium;
-    src        : url("../Segoe-UI-Medium.ttf");
-}
-
-@font-face {
-    font-family: segoe-ui-semibold;
-    src        : url('../fonts/Segoe-UI-Semibold.ttf');
-}
-
-@font-face {
-        font-family: 'Fraunces', serif !important;
-
-    src        : url('../fonts/Segoe-UI-Bold.ttf');
+    font-family: 'Fraunces';
+    src: url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap');
 }
 
 body {
-    font-family            : segoe-ui-regular;
+    font-family            : 'Fraunces', serif !important; /* Apply Fraunces font globally */
     color                  : $secondary;
     font-weight            : 400;
     font-size              : 14px;
@@ -92,8 +80,7 @@ h6,
 }
 
 .fw-7 {
-        font-family: 'Fraunces', serif !important;
-
+    font-family: segoe-ui-bold;
 }
 
 a {
