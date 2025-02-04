@@ -17,7 +17,7 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
-    <body class="font-serif">
+    <body class="font-Fraunces">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
