@@ -247,7 +247,7 @@ a.story-entry .ct-story span {
     position: relative;
     margin-right: 29px;
     font-size: 20px;
-    background-color: #BADA5585 !important;
+    background-color: #5a2ff985 !important;
     color: #fff9 !important;
 }
 a.story-entry .ct-story span::before {
@@ -3176,8 +3176,8 @@ a.story-entry .ct-story p {
 }
 .btn_fundraiser {
 	background: transparent;
-	color: #BADA55;
-	border: 1px solid #BADA55;
+	color: #5A2FF9;
+	border: 1px solid #5A2FF9;
 	font-size: 14px;
 	width: 200px;
 	height: 47px;
@@ -3258,7 +3258,7 @@ a.story-entry .ct-story p {
 	border-radius: 5px !important;
 }
 .payform .form-control:focus{
-	border-color: #BADA55 !important;
+	border-color: #5A2FF9 !important;
 }
 .pro .custom-btn-1 {
 	border: 1px solid #DEDEDE !important;

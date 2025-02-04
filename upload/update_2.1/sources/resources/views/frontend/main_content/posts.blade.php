@@ -37,7 +37,7 @@
     <style>
         .hashtag-link {
              font-weight: 500;
-             color: #BADA55;
+             color: #5a2ff9;
          }
      </style>
      @if($post->post_type != 'fundraiser')

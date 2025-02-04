@@ -56,7 +56,7 @@
 }
 
 .text_purple {
-    color: #BADA55;
+    color: #5A2FF9;
 }
 
 .text_green {
@@ -227,7 +227,7 @@ Fundraiser Page CSS Start ***/
 }
 
 .blog-area .blog-see-more .text_purple:hover {
-    color: #BADA55ad;
+    color: #5a2ff9ad;
 }
 
 .blog-card .card {
@@ -575,7 +575,7 @@ Fundraiser Profile Page CSS Start ***/
     width: 100%;
     border-radius: 3px;
     padding: 15px;
-    color: #BADA55;
+    color: #5A2FF9;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -699,7 +699,7 @@ Fundraiser Profile Page CSS Start ***/
 }
 
 .fund-profile-about-area .about-see-more-btn a:hover {
-    color: #BADA55ad;
+    color: #5a2ff9ad;
 }
 
 /************************************
@@ -724,7 +724,7 @@ Fundraiser Campaign Form Page CSS Start ***/
 }
 
 .step-left-area.active {
-    border-color: #BADA55;
+    border-color: #5A2FF9;
 }
 
 .step-left-area .text_26 {
@@ -786,7 +786,7 @@ Fundraiser Campaign Form Page CSS Start ***/
 }
 
 .fundraising-for-wrap .form-check-label.active {
-    outline-color: #BADA55;
+    outline-color: #5A2FF9;
 }
 
 .fundraising-for-wrap .form-check-label.active .single-fundraising-for {
@@ -816,7 +816,7 @@ Fundraiser Campaign Form Page CSS Start ***/
 
 .starting-goal-input .form-control:focus {
     box-shadow: none;
-    border: 1px solid #BADA55;
+    border: 1px solid #5A2FF9;
     background: rgba(255, 255, 255, 0.08);
 }
 
@@ -844,7 +844,7 @@ Fundraiser Campaign Form Page CSS Start ***/
     line-height: normal;
     padding: 10px 16px;
     border-radius: 10px;
-    background: #BADA55;
+    background: #5A2FF9;
     margin-bottom: 0;
 }
 
@@ -934,7 +934,7 @@ Fundraiser Campaign Form Page CSS Start ***/
 }
 
 .img-file-drag .browse-option span {
-    color: #BADA55;
+    color: #5A2FF9;
     cursor: pointer !important;
     transition: .3s;
     position: relative;
@@ -967,12 +967,12 @@ Fundraiser Campaign Form Page CSS Start ***/
 
 .fund-form-group .form-control:focus {
     box-shadow: none;
-    border: 1px solid #BADA55;
+    border: 1px solid #5A2FF9;
     background: rgba(255, 255, 255, 0.08);
 }
 
 .fund-form-group .form-control.active {
-    border: 1px solid #BADA55;
+    border: 1px solid #5A2FF9;
     background: rgba(255, 255, 255, 0.08);
 }
 

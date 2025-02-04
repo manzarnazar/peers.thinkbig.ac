@@ -23,7 +23,7 @@ a.story-entry video {
 }
 
 .input-prev-text.bg-5a2ff9 {
-    background-color: #BADA55;
+    background-color: #5a2ff9;
     color: #fff;
 }
 
@@ -80,9 +80,9 @@ a.story-entry video {
 
 
 #timeline-posts .like-color {
-    color: #BADA55;
+    color: #5a2ff9;
     font-weight: 800;
-    fill: #BADA55;
+    fill: #5a2ff9;
 }
 
 .sad-color {
@@ -537,7 +537,7 @@ a.story-entry video {
 .custom-progress-bar .custom-progress {
     width: 0%;
     height: 100%;
-    background-color: #BADA55;
+    background-color: #5a2ff9;
     border-radius: 50px;
     box-shadow: 0px 0px 2px 0px #000;
 }
@@ -649,9 +649,9 @@ input[type="radio"] {
 }
 
 .tags-selected-custom {
-    background-color: #BADA55;
+    background-color: #5a2ff9;
     color: #fff;
-    border: 2px solid #BADA55;
+    border: 2px solid #5a2ff9;
 }
 
 select.form-control {
@@ -1186,7 +1186,7 @@ select.form-control {
 }
 .error-content .error-btn{
     display: inline-block;
-    background-color: #BADA55;
+    background-color: #5A2FF9;
     color: #fff;
     padding: 15px 24px;
     border-radius: 5px;
@@ -1357,9 +1357,9 @@ ul.react-list img{
 }
 
 .tags a.active{
-    background-color: #BADA55;
+    background-color: #5a2ff9;
     color: #fff;
-    border: 2px solid #BADA55;
+    border: 2px solid #5a2ff9;
 }
 .max-width-200{
     max-width: 200px;
@@ -1442,7 +1442,7 @@ body.login .form-group input{
     border-radius: 50%;
     text-align: center;
     border: 2px solid #fff;
-    background-color: #BADA55;
+    background-color: #5A2FF9;
     font-size: 12px;
     margin-right: 6px;
 }
@@ -1455,7 +1455,7 @@ body.login .form-group input{
     height: 30px;
     width: 30px !important;
     border-radius: 50%;
-    border: 2px solid #BADA55;
+    border: 2px solid #5A2FF9;
     object-fit: cover;
     top: 10px;
     left: 8px;
