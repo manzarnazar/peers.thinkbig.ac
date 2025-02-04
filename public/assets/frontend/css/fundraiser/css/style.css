@@ -11061,7 +11061,8 @@ fieldset:disabled .btn {
 }
 
 @font-face {
-    font-family: segoe-ui-bold;
+        font-family: 'Fraunces', serif !important;
+
     src: url(../fonts/Segoe-UI-Bold.ttf)
 }
 

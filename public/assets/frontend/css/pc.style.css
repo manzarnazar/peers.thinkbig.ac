@@ -57,7 +57,8 @@
 }
 
 .creator_request_section p {
-    font-family: segoe-ui-bold;
+        font-family: 'Fraunces', serif !important;
+
 }
 
 .search-list-menu.dropdown-menu {
