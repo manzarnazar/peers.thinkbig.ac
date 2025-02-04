@@ -1,26 +1,8 @@
 /* ======================================
 1.2 FONTS FOR THEME
 ========================================*/
+
 // FONT
-@font-face {
-    font-family: segoe-ui-regular;
-    src        : url('../fonts/Segoe-UI-Regular.ttf');
-}
-
-@font-face {
-    font-family: segoe-ui-medium;
-    src        : url("../Segoe-UI-Medium.ttf");
-}
-
-@font-face {
-    font-family: segoe-ui-semibold;
-    src        : url('../fonts/Segoe-UI-Semibold.ttf');
-}
-
-@font-face {
-    font-family: segoe-ui-bold;
-    src        : url('../fonts/Segoe-UI-Bold.ttf');
-}
 @font-face {
     font-family: 'Fraunces';
     font-style: normal;
@@ -29,82 +11,78 @@
     src: url('https://fonts.gstatic.com/s/fraunces/v10/Fraunces-VariableFont_SOFT,WONK.ttf') format('truetype');
 }
 
-
-
+/* ======================================
+BODY STYLES
+========================================*/
 
 body {
-    // font-family            : segoe-ui-regular;
     font-family: 'Fraunces', serif;
-
-    color                  : $secondary;
-    font-weight            : 400;
-    font-size              : 14px;
-    line-height            : 25px;
-    background-color       : #F5F5F5;
-    position               : relative;
-    height                 : 100%;
-    box-sizing             : border-box;
-    -webkit-font-smoothing : antialiased;
+    color: $secondary;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    background-color: #F5F5F5;
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* ======================================
+HEADINGS
+========================================*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     @include heading;
 }
 
-h1,
-.h1 {
+h1, .h1 {
     @include heading-1;
 }
 
-h2,
-.h2 {
+h2, .h2 {
     @include heading-2;
 }
 
-h3,
-.h3 {
+h3, .h3 {
     @include heading-3;
 }
 
-h4,
-.h4 {
+h4, .h4 {
     @include heading-4;
 }
 
-h5,
-.h5 {
+h5, .h5 {
     @include heading-5;
 }
 
-h6,
-.h6 {
+h6, .h6 {
     @include heading-6;
 }
 
+/* ======================================
+FONT WEIGHT CLASSES
+========================================*/
+
 .fw-6 {
-    font-family: segoe-ui-semibold;
+    font-family: 'Fraunces';
+    font-weight: 600; /* Assuming a semi-bold weight */
 }
 
 .fw-4 {
-    font-family: segoe-ui-regular;
+    font-family: 'Fraunces';
+    font-weight: 400; /* Regular weight */
 }
 
 .fw-7 {
-    font-family: segoe-ui-bold;
+    font-family: 'Fraunces';
+    font-weight: 700; /* Bold weight */
 }
+
+/* ======================================
+LINK STYLES
+========================================*/
 
 a {
     color: $secondary;
@@ -119,37 +97,36 @@ a {
     }
 }
 
-input,
-textarea {
-    color     : $secondary;
-    width     : 100%;
-    padding   : 10px;
-    border    : 1px solid #e0e1e5;
+/* ======================================
+FORM STYLES
+========================================*/
+
+input, textarea {
+    color: $secondary;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e1e5;
     background: $white;
     @include border-radius(5px);
+
     &.btn {
         cursor: auto;
     }
 
     &:focus {
-        outline: 0 none;
-
+        outline: none;
     }
 
     &::placeholder {
-        /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color  : $border-color;
+        color: $border-color;
         opacity: 1;
-        /* Firefox */
     }
 
     &:-ms-input-placeholder {
-        /* Internet Explorer 10-11 */
         color: $border-color;
     }
 
     &::-ms-input-placeholder {
-        /* Microsoft Edge */
         color: $border-color;
     }
 }
