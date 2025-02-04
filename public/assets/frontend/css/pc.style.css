@@ -42,7 +42,7 @@
 .sign-btn {
     display: block;
     border-radius: 0.625rem;
-    background-color: #5a2ff9;
+    background-color: #101010;
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: 600;
@@ -206,7 +206,7 @@
 }
 
 .search-btn {
-    background: #5a2ff9;
+    background: #101010;
     width: auto;
     border-radius: 50px;
     font-size: 16px;
