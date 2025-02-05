@@ -3,27 +3,27 @@
 ========================================*/
 // FONT
 @font-face {
-    font-family: segoe-ui-regular;
+    font-family: Fraunces;
     src        : url('../fonts/Segoe-UI-Regular.ttf');
 }
 
 @font-face {
-    font-family: segoe-ui-medium;
+    font-family: Fraunces;
     src        : url("../Segoe-UI-Medium.ttf");
 }
 
 @font-face {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     src        : url('../fonts/Segoe-UI-Semibold.ttf');
 }
 
 @font-face {
-    font-family: segoe-ui-bold;
+    font-family: Fraunces;
     src        : url('../fonts/Segoe-UI-Bold.ttf');
 }
 
 body {
-    font-family            : segoe-ui-regular;
+    font-family            : Fraunces;
     color                  : $secondary;
     font-weight            : 400;
     font-size              : 14px;
@@ -83,15 +83,15 @@ h6,
 }
 
 .fw-6 {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
 }
 
 .fw-4 {
-    font-family: segoe-ui-regular;
+    font-family: Fraunces;
 }
 
 .fw-7 {
-    font-family: segoe-ui-bold;
+    font-family: Fraunces;
 }
 
 a {

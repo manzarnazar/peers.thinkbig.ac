@@ -57,7 +57,7 @@
 }
 
 .creator_request_section p {
-    font-family: segoe-ui-bold;
+    font-family: Fraunces;
 }
 
 .search-list-menu.dropdown-menu {
@@ -214,7 +214,7 @@
     font-weight: 500;
     border: 0;
     padding: 15px 40px;
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
 }
 
 .search-bar .icon {

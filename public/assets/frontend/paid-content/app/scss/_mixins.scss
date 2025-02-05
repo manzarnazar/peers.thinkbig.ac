@@ -128,7 +128,7 @@
 
 
 @mixin heading {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     color: $headings-color;
     margin-bottom: 10px;
 }
@@ -177,11 +177,11 @@
     transform: translate(-50%, -50%);
 }
 @mixin segoe-medium {
-    font-family: segoe-ui-medium;
+    font-family: Fraunces;
 }
 @mixin segeo-semi{
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
 }
 @mixin segeo-bold {
-    font-family: segoe-ui-bold;
+    font-family: Fraunces;
 }

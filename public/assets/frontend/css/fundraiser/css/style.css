@@ -11046,27 +11046,27 @@ fieldset:disabled .btn {
 }
 
 @font-face {
-    font-family: segoe-ui-regular;
+    font-family: Fraunces;
     src: url(../fonts/Segoe-UI-Regular.ttf)
 }
 
 @font-face {
-    font-family: segoe-ui-medium;
+    font-family: Fraunces;
     src: url(../Segoe-UI-Medium.ttf)
 }
 
 @font-face {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     src: url(../fonts/Segoe-UI-Semibold.ttf)
 }
 
 @font-face {
-    font-family: segoe-ui-bold;
+    font-family: Fraunces;
     src: url(../fonts/Segoe-UI-Bold.ttf)
 }
 
 body {
-    font-family: segoe-ui-regular;
+    font-family: Fraunces;
     color: #636363;
     font-weight: 400;
     font-size: 14px;
@@ -11093,7 +11093,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     color: #101010;
     margin-bottom: 10px
 }
@@ -11112,7 +11112,7 @@ h2 {
 .h3,
 h2,
 h3 {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     color: #101010;
     margin-bottom: 10px
 }
@@ -11131,7 +11131,7 @@ h4 {
 .h5,
 h4,
 h5 {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     color: #101010;
     margin-bottom: 10px
 }
@@ -11145,7 +11145,7 @@ h5 {
 .post-inner .tag-wrap .h4,
 .post-inner .tag-wrap h4,
 h6 {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     color: #101010;
     margin-bottom: 10px;
     font-size: 16px
@@ -11177,7 +11177,7 @@ h6 {
 .svideo-entry .avatar-info .h4,
 .svideo-entry .avatar-info h4,
 .tags a {
-    font-family: segoe-ui-semibold
+    font-family: Fraunces
 }
 
 .fw-4,
@@ -11185,7 +11185,7 @@ h6 {
 .single-entry .follow-peoples .single-follow h3 span,
 .single-friend .h3 span,
 .single-friend h3 span {
-    font-family: segoe-ui-regular
+    font-family: Fraunces
 }
 
 .dsc-card p span.count,
@@ -11201,7 +11201,7 @@ h6 {
 .sub-title,
 .widget.video-widget .d-flex a .v-duration,
 .widget .widget-title {
-    font-family: segoe-ui-bold
+    font-family: Fraunces
 }
 
 a {
@@ -11371,7 +11371,7 @@ a.story-entry .ct-story p {
 }
 
 .dropdown-menu .dropdown-item {
-    font-family: segoe-ui-semibold;
+    font-family: Fraunces;
     padding: 7px 15px;
     color: #101010;
     font-size: 14px
@@ -12285,7 +12285,7 @@ aside.sidebar.plain-sidebar .widget {
 .modal .modal-header .h5,
 .modal .modal-header h5 {
     font-size: 20px;
-    font-family: segoe-ui-bold
+    font-family: Fraunces
 }
 
 .modal .modal-header button.btn-close {
@@ -12945,7 +12945,7 @@ a.story-entry .ct-story p {
     margin: 0;
     color: #fff;
     text-transform: capitalize;
-    font-family: segoe-ui-semibold
+    font-family: Fraunces
 }
 
 .avatar-online .avatar-img img {
