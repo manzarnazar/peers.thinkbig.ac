@@ -1423,7 +1423,7 @@ body.login{
     background-color: #ffffff !important;
 }
 body.login .form-group input{
-    border: 1px solid #cfc2fb;
+    border: 1px solid #d9fbc2;
     background: #fafeff;
 }
 .hidden-on-shared-view{
