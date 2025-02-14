@@ -1,3 +1,15 @@
+<?php
+use App\Models\Notification;
+use App\Models\User;
+use Carbon\Carbon;
+
+        $date = Carbon::today();
+        $new_notification = Notification::where('reciver_user_id', auth()->user()->id)->where('status', '0')
+            ->orderBy('id', 'DESC')->get();
+        $older_notification = Notification::where('reciver_user_id', auth()->user()->id)->where('created_at', '<', $date)->orderBy('id', 'DESC')->get();
+
+?>
+
 <!-- header -->
 <div class="custom-progress-bar">
     <div class="custom-progress"></div>
@@ -50,6 +62,10 @@
                         <div class="align-items-center d-flex justify-content-end g-12">
 
                             <div class="group-control">
+                                <a href="<?php echo e(route('ai_image.image_generator')); ?>" class="notification-button" title="AI image generator"><i class="fa-solid fa-robot"></i></a>
+                            </div>
+
+                            <div class="group-control">
                                 <a href="javascript:;" class="notification-button"><img id="dark" src="<?php echo e($image); ?>" alt=""></a>
                             </div>
                             <div class="group-control">
@@ -92,8 +108,9 @@
                                     ->where('status', '0')
                                     ->count();
                             ?>
+
                             <div class="notify-control ">
-                                <a class="notification-button position-relative" href="<?php echo e(route('notifications')); ?>">
+                                <a class="notification-button position-relative" id="notification-button" href="javascript:;">
                                     <i class="fa-solid fa-bell"></i>
                                     <?php if($unread_notification > 0): ?>
                                         <span
@@ -103,7 +120,11 @@
                                         </span>
                                     <?php endif; ?>
                                 </a>
+                                <div class="notification_panel" id="notification_panel">
+                                    <?php echo $__env->make('frontend.notification.notification', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                                </div>
                             </div>
+                            
                             <div class="profile-control dropdown">
                                 <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -189,7 +210,12 @@ jQuery(document).ready(function($) {
             console.log("Class 'test' toggled on .webgl elements"); // Debugging statement
         });
     });
-    
+
+    $(document).ready(function(){
+        $("#notification-button").click(function(){
+            $("#notification_panel").slideToggle();
+        });
+    })
     
     
     </script><?php /**PATH /home/thingpfd/peers.thinkbig.ac/resources/views/frontend/header.blade.php ENDPATH**/ ?>

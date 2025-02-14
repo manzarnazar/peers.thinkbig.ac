@@ -81,6 +81,8 @@
     
 	<link rel="stylesheet" href="<?php echo e(asset('assets/frontend/css/fundraiser/css/custom_responsive.css')); ?>" />
     <script src="<?php echo e(asset('assets/frontend/js/jquery-3.6.0.min.js')); ?>"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap" rel="stylesheet">
+
 
 
 </head>

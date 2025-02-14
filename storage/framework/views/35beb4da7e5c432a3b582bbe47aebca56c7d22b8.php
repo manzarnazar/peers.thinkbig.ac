@@ -130,9 +130,16 @@
                                 
                                 <div class="fpb-7">
                                     <label for="google_analytics_id" class="eForm-label">
-                                        <?php echo e(get_phrase('Aoogle Analytics Id')); ?></label>
+                                        <?php echo e(get_phrase('Google Analytics Id')); ?></label>
                                     <input type="text" class="form-control eForm-control" id="google_analytics_id"
                                         value="<?php echo e($google_analytics_id); ?>" name="google_analytics_id">
+                                </div>
+
+                                <div class="fpb-7">
+                                    <label for="hugging_face_auth_key" class="eForm-label">
+                                        <?php echo e(get_phrase('Hugging Face Auth Key')); ?> <a href="https://huggingface.co/" target="_blank" title="<?php echo e(get_phrase('Get Hugging Face Auth Key')); ?>"> <i class="fa-solid fa-link"></i></label></a>
+                                    <input type="text" class="form-control eForm-control" id="hugging_face_auth_key"
+                                        value="<?php echo e($hugging_face_auth_key); ?>" name="hugging_face_auth_key">
                                 </div>
 
                                 
@@ -452,4 +459,10 @@
 
     <?php echo $__env->make('backend.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 </div>
-<?php /**PATH /home/thingpfd/peers.thinkbig.ac/resources/views/backend/admin/setting/system.blade.php ENDPATH**/ ?>
+<script>
+    $(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+</script><?php /**PATH /home/thingpfd/peers.thinkbig.ac/resources/views/backend/admin/setting/system.blade.php ENDPATH**/ ?>
