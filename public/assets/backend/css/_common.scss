@@ -130,7 +130,7 @@ Common styles END
   background-color: #f1416c !important;
 }
 .bg-primary {
-  background-color: #00a3ff !important;
+  background-color: #BADA55 !important;
 }
 .bg-warning {
   background-color: #ffc700 !important;
@@ -149,7 +149,7 @@ Common styles END
   color: #f1416c !important;
 }
 .color-primary {
-  color: #00a3ff !important;
+  color: #BADA55 !important;
 }
 .color-warning {
   color: #ffc700 !important;
@@ -170,8 +170,8 @@ Common styles END
   border-color: #f1416c !important;
 }
 .btn-primary {
-  background-color: #00a3ff !important;
-  border-color: #00a3ff !important;
+  background-color: #BADA55 !important;
+  border-color: #BADA55 !important;
 }
 .btn-warning {
   background-color: #ffc700 !important;
@@ -200,7 +200,7 @@ Common styles END
 .btn-light-primary {
   background-color: #d1eeff !important;
   border-color: #d1eeff !important;
-  color: #00a3ff !important;
+  color: #BADA55 !important;
 }
 .btn-light-warning {
   background-color: #fef5d4 !important;
@@ -219,8 +219,8 @@ Common styles END
   color: #fff !important;
 }
 .btn-light-primary:hover {
-  background-color: #00a3ff !important;
-  border-color: #00a3ff !important;
+  background-color: #BADA55 !important;
+  border-color: #BADA55 !important;
   color: #fff !important;
 }
 .btn-light-warning:hover {
@@ -238,8 +238,8 @@ Common styles END
   border-color: #f1416c !important;
 }
 .btn-outline-primary {
-  color: #00a3ff !important;
-  border-color: #00a3ff !important;
+  color: #BADA55 !important;
+  border-color: #BADA55 !important;
 }
 .btn-outline-warning {
   color: #ffc700 !important;
@@ -269,8 +269,8 @@ Common styles END
 .btn-outline-primary:hover,
 .btn-outline-primary:focus {
   color: #fff !important;
-  background-color: #00a3ff !important;
-  border-color: #00a3ff !important;
+  background-color: #BADA55 !important;
+  border-color: #BADA55 !important;
 }
 .btn-outline-warning:hover,
 .btn-outline-warning:focus {
@@ -297,8 +297,8 @@ Common styles END
 }
 
 .page-item.active .page-link {
-  background-color: #00a3ff;
-  border-color: #00a3ff;
+  background-color: #BADA55;
+  border-color: #BADA55;
 }
 /*Bootstrap color overwrite end*/
 
@@ -436,7 +436,7 @@ Common styles END
 .login-btn {
   width: 145px;
   height: 60px;
-  background-color: #00a3ff;
+  background-color: #BADA55;
   color: #fff;
   border-radius: 5px;
   display: flex;
@@ -507,8 +507,8 @@ Common styles END
 }
 .side-navigation-bar > .parent-side-bar > li > a.active,
 .side-navigation-bar > .parent-side-bar > li > a:hover {
-  color: #00a3ff;
-  border-left: 4px solid #00a3ff;
+  color: #BADA55;
+  border-left: 4px solid #BADA55;
   font-weight: 500;
 }
 
@@ -523,7 +523,7 @@ Common styles END
 .side-navigation-bar > .parent-side-bar > li > a.active .svg-icon1,
 .side-navigation-bar > .parent-side-bar > li > a:hover .svg-icon1 {
   fill: #fff;
-  stroke: #00a3ff;
+  stroke: #BADA55;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -537,7 +537,7 @@ Common styles END
 }
 .side-navigation-bar > .parent-side-bar > li > a.active .svg-icon2,
 .side-navigation-bar > .parent-side-bar > li > a:hover .svg-icon2 {
-  fill: #00a3ff;
+  fill: #BADA55;
   stroke: #00000000;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -555,7 +555,7 @@ Common styles END
 .side-navigation-bar > .parent-side-bar > li > a.active .svg-icon3 path,
 .side-navigation-bar > .parent-side-bar > li > a:hover .svg-icon3 path {
   fill: #fff;
-  stroke: #00a3ff;
+  stroke: #BADA55;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -566,7 +566,7 @@ Common styles END
 .side-navigation-bar > .parent-side-bar > li > a.active .svg-icon3 g,
 .side-navigation-bar > .parent-side-bar > li > a:hover .svg-icon3 g {
   fill: #fff;
-  stroke: #00a3ff;
+  stroke: #BADA55;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -577,7 +577,7 @@ Common styles END
 .side-navigation-bar > .parent-side-bar > li > a.active .svg-icon3 circle,
 .side-navigation-bar > .parent-side-bar > li > a:hover .svg-icon3 circle {
   fill: #fff;
-  stroke: #00a3ff;
+  stroke: #BADA55;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -672,7 +672,7 @@ Common styles END
 }
 .child-side-bar > li > a.active,
 .child-side-bar > li > a:hover {
-  color: #00a3ff;
+  color: #BADA55;
 }
 .parent-droupdown.active > ul.child-side-bar {
   display: block;
@@ -720,7 +720,7 @@ Common styles END
 }
 .child-side-bar-2nd > li > a.active,
 .child-side-bar-2nd > li > a:hover {
-  color: #00a3ff;
+  color: #BADA55;
 }
 .parent-droupdown-2nd.active > ul.child-side-bar-2nd {
   display: block;
@@ -741,7 +741,7 @@ Common styles END
   align-items: center;
   width: 163px;
   height: 50px;
-  background-color: #00a3ff;
+  background-color: #BADA55;
   color: #fff;
   border-radius: 5px;
 }
@@ -1155,7 +1155,7 @@ Body Section
 .updateAdmin-btn {
   width: 100%;
   height: 60px;
-  background-color: #00a3ff;
+  background-color: #BADA55;
   color: #fff;
   border-radius: 5px;
   display: flex;
@@ -1259,7 +1259,7 @@ Body Section
 }
 .dAdmin_info .dAdmin_info_img i {
   font-size: 18px;
-  color: #00a3ff;
+  color: #BADA55;
 }
 .dAdmin_info_name {
   p {
