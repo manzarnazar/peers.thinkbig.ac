@@ -37,8 +37,8 @@
 	--color-4 :  #fff;
 	--color-6 :  #5a2ff985;
 }
-.fa-house{
-	color:#fff;
+.header-search .fa-house{
+	color:#000 !important;
 }
 .dark{
 	--body--color: #01000B;
