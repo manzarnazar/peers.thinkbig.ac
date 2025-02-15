@@ -495,11 +495,17 @@ textarea::placeholder{
 	background-color: #BADA55;	
 }
 
+.message_custom_button .fa-rocketchat{
+	color: #000 !important;
+}
 .form-select::placeholder,
 .sc-search input::placeholder{
 	font-size: 12px;
 	font-weight: 500;
-	color: #BADA55 !important;
+	color: #fff !important;
+}
+.notification-button .fa-bell{
+	color: #000;
 }
 .form-select{
 	color: var(--color-dark);
