@@ -666,8 +666,11 @@ textarea::placeholder{
 .file-uploader > .preview-files > .row > div > img, .file-uploader > .preview-files > .row > div > video {
 	height: 120px !important;
 }
+.login-txt .btn{
+	font-size: 16px !important;
+}
 .dropdown-menu .dropdown-item {
-	font-size: 12px;
+	font-size: 13px !important;
 	font-family: var(--font-family);
 	border-radius: 5px;
 }
@@ -1672,7 +1675,7 @@ iframe .single-entry .entry-inner ,
 	background-color: var(--color-global);
 }
 .widget .btn{
-	font-size: 12px;
+	font-size: 14px;
 }
 .nav-link,
 .nav-link.active {
@@ -2746,7 +2749,7 @@ iframe .single-entry .entry-inner ,
 }
 .widget ul li span {
 	color: var(--color-dark) !important;
-	font-size: 12px !important;
+	font-size: 14px !important;
 	font-weight: 500 !important ;
 }
 .single-item-countable .img-thumbnail {
@@ -2792,7 +2795,7 @@ iframe .single-entry .entry-inner ,
 	border-radius: 8px;
 }
 .f-text{
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 }
 .mt-10{
