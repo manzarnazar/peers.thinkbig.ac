@@ -452,6 +452,9 @@ textarea::placeholder{
 	line-height: 36px;
 	background-color: var(--color-4);
 }
+.sc-home:hover{
+	background-color: #BADA55;
+}
 .sc-search{
 	position: relative;
 	margin-left: 12px !important;
