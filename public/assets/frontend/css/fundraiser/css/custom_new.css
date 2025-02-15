@@ -500,7 +500,7 @@ textarea::placeholder{
 }
 .form-select::placeholder,
 .sc-search input::placeholder{
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	color: #fff !important;
 }
