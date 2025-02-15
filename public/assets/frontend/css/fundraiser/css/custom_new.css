@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600;1,700&display=swap');
 :root{
 	--text-color: #49484F;
-	--font-family: 'Poppins', sans-serif;
-	--color-global :  #5A2FF9;
+	--font-family: 'fraunces', sans-serif;
+	--color-global :  #000000;
 	--color-global-hover :  #fff;
 	--color-white : #fff;
 	--color-dark : #0D091D;
@@ -31,7 +31,7 @@
 }
 
 .default{
-	--color-global :  #5A2FF9;
+	--color-global :  #000000;
 	--color-4 :  #4620d5;
 	--color-6 :  #5a2ff985;
 }
