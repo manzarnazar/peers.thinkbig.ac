@@ -34,8 +34,11 @@
 }
 .default{
 	--color-global :  #000000;
-	--color-4 :  #000000;
+	--color-4 :  #fff;
 	--color-6 :  #5a2ff985;
+}
+.fa-house{
+	color:#fff;
 }
 .dark{
 	--body--color: #01000B;
