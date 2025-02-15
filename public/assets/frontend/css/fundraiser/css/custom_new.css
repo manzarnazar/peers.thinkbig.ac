@@ -35,7 +35,7 @@
 .default{
 	--color-global :  #000000;
 	--color-4 :  #fff;
-	--color-6 :  #5a2ff985;
+	--color-6 :  #bbda559f;
 }
 .header-search .fa-house{
 	color:#000 !important;
@@ -568,7 +568,7 @@ textarea::placeholder{
 	padding: 0 15px;
 	height: 44px;
 	line-height: 44px;
-	font-size: 12px;
+	font-size: 14px;
 	color: var(--color-dark);
 }
 .cts-wrap .entry-header .dropdown-menu{
@@ -748,7 +748,7 @@ iframe .single-entry .entry-inner ,
 	border: none;
 	background-color: var(--color-3);
 	padding: 7px 14px !important;
-	font-size: 12px !important;
+	font-size: 14px !important;
 	font-weight: 500;
 	line-height: 24px;
 	color: var(--text-color);
@@ -2785,7 +2785,7 @@ iframe .single-entry .entry-inner ,
 	margin-bottom: 8px !important;
 }
 .widget .widget-title {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
 }
 .widget {
