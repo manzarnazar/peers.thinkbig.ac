@@ -468,7 +468,7 @@ textarea::placeholder{
 	font-size: 12px;
 	font-weight: 500;
 	color: #fff !important;
-	background-color: var(--color-4);
+	background-color: #1d1c1c;
 }
 .header-controls button,
 .header-controls .notify-control .notification-button,
