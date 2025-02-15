@@ -489,6 +489,11 @@ textarea::placeholder{
 .header-controls .group-control .notification-button:hover{
 	background-color: #BADA55;
 }
+.header-controls button:hover,
+.header-controls .notify-control .notification-button:hover,
+.header-controls .inbox-control .message_custom_button:hover{
+	background-color: #BADA55;	
+}
 
 .form-select::placeholder,
 .sc-search input::placeholder{
